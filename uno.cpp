@@ -1,15 +1,6 @@
-// uno.cpp - Simulates the card game Uno.
-//
-// Author: Aaron Friesen
-//
-// Date: Wed 19 Jun 2019
-//
-// Time Spent: 13 hours 30 minutes
-// 
-// Description: Implementation works as specified with the only omission being the restriction on playing Draw4s.
-
 #include <cstdlib>
 #include <iostream>
+#include <string>
 #include <time.h>
 #include "card.hpp"
 #include "deck.hpp"
@@ -21,6 +12,7 @@ using namespace std;
 
 void printInstructions();
 
+// Simulates the card game Uno
 int main()
 {
     // Seed the random number generator (necessary for shuffling the deck)

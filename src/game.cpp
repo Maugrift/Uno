@@ -1,5 +1,6 @@
 #include <assert.h>
 #include <iostream>
+#include <string>
 #include "game.hpp"
 using namespace std;
 
